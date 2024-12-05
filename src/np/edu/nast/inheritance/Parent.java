@@ -1,3 +1,5 @@
+package np.edu.nast.inheritance;
+
 public class Parent {
     String name;
 

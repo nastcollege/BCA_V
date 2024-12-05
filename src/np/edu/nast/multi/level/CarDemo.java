@@ -1,4 +1,4 @@
-package np.edu.nast.simple.multi.level;
+package np.edu.nast.multi.level;
 
 public class CarDemo {
     public static void main(String[] args) {

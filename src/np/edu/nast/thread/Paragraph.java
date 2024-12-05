@@ -1,3 +1,5 @@
+package np.edu.nast.thread;
+
 import java.util.Scanner;
 
 public class Paragraph extends Thread{

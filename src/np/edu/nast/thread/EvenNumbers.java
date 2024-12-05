@@ -1,3 +1,5 @@
+package np.edu.nast.thread;
+
 public class EvenNumbers implements  Runnable{
     @Override
     public void run() {

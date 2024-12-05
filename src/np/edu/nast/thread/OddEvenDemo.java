@@ -1,3 +1,5 @@
+package np.edu.nast.thread;
+
 public class OddEvenDemo {
     public static void main(String[] args) {
         new OddNumber().start();

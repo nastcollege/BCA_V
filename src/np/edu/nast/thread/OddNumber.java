@@ -1,3 +1,5 @@
+package np.edu.nast.thread;
+
 public class OddNumber extends Thread{
     @Override
     public void run() {

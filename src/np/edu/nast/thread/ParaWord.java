@@ -1,3 +1,5 @@
+package np.edu.nast.thread;
+
 public class ParaWord extends Thread {
     private String[] words;
 
