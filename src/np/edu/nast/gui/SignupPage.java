@@ -9,7 +9,8 @@ public class SignupPage extends JFrame {
     JButton btnSignup;
 
     public SignupPage() {
-        setLayout(new GridLayout(6, 2,1,10));
+        JPanel panel = new JPanel(new GridLayout(6, 2, 5, 5));
+        // setLayout();
         setTitle("Signup Page");
 
         lblFirstName = new JLabel("First Name");
@@ -29,18 +30,19 @@ public class SignupPage extends JFrame {
 
         btnSignup = new JButton("Signup");
 
-        add(lblFirstName);
-        add(txtFirstName);
-        add(lblLastName);
-        add(txtLastName);
-        add(lblEmail);
-        add(txtEmail);
-        add(lblPassword);
-        add(txtPassword);
-        add(lblConfirmPassword);
-        add(txtConfirmPassword);
-        add(new JLabel());
-        add(btnSignup);
+        panel.add(lblFirstName);
+        panel.add(txtFirstName);
+        panel.add(lblLastName);
+        panel.add(txtLastName);
+        panel.add(lblEmail);
+        panel.add(txtEmail);
+        panel.add(lblPassword);
+        panel.add(txtPassword);
+        panel.add(lblConfirmPassword);
+        panel.add(txtConfirmPassword);
+        panel.add(new JLabel());
+        panel.add(btnSignup);
+        add(panel, BorderLayout.CENTER);
 
         setSize(300, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
