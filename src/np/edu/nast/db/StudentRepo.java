@@ -21,9 +21,7 @@ public class StudentRepo implements StudentCrud{
         stmt.setString(4, mobile);
 
         //execute
-
         return stmt.executeUpdate();
-
     }
 
     @Override
